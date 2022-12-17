@@ -20,9 +20,9 @@ const NavBar = () => {
   const [isMouseOverFeatureMenu, setIsMouseOverFeatureMenu] = useState<boolean>(false);
   const [isMouseOverCompanyMenu, setIsMouseOverCompanyMenu] = useState<boolean>(false);
   return (
-    <div className='flex flex-row justify-between px-4 mt-4 '>
+    <div className='flex flex-row items-center justify-between px-4 mt-4 '>
       <div className='flex flex-row items-baseline '>
-        <p className='mr-12 text-3xl font-bold text-my_paragraph'>snap</p>
+        <p className='mr-12 text-4xl font-bold text-my_paragraph'>snap</p>
 
         <ul className='items-center hidden space-x-6 text-md text-my_gray md:flex'>
           {/**************** Fautures Menu Item ****************/}
@@ -85,7 +85,7 @@ const NavBar = () => {
           </li>
           <li>
             <a href='#/' className='hover:text-my_black'>
-              Carrers
+              Careers
             </a>
           </li>
           <li>
@@ -107,7 +107,7 @@ const NavBar = () => {
         </a>
       </div>
 
-      <img src={iconCloseMenuImage} className='md:hidden' />
+      <img src={iconCloseMenuImage} className='w-6 h-4 md:hidden' alt='closeIcon' />
     </div>
   );
 };

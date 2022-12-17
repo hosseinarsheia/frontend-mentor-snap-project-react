@@ -1,10 +1,11 @@
 import NavBar from './components/NavBar';
-import iconCloseMenu from '../../src/assets/images/client-databiz.svg';
+import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className='container mx-auto '>
+    <div className='container max-w-5xl mx-auto '>
       <NavBar />
+      <Hero />
     </div>
   );
 }
