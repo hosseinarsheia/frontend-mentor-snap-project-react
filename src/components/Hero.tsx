@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       <img
         src={heroImageMobile}
-        className='w-full max-w-md mx-auto mt-8 h-80 md:hidden'
+        className='object-contain min-w-full mt-8 h-80 md:hidden'
         alt='closeIcon'
       />
       <img

@@ -3,3 +3,13 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+@keyframes example {
+  0% {
+    transform: translateX(800px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
